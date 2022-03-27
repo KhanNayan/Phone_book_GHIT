@@ -3,12 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/bg_gradient.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/call_icon.xml" value="0.28378378378378377" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/email_icon.xml" value="0.2652777777777778" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/phone_icon.xml" value="0.2652777777777778" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/right_arrow.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/round_bg.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/search_icon.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/drawable/splash_background.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/activity_home.xml" value="0.275" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/activity_main.xml" value="0.19652509652509653" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/activity_sub_acitvity.xml" value="0.274609375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/activity_profile_actvity.xml" value="0.275" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/activity_sub_acitvity.xml" value="0.2683544303797468" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/custom_layout_1.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/layout/custom_layout_2.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/menu/first_menu.xml" value="0.22430555555555556" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/DM_PhoneBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2171875" />
       </map>
     </option>
   </component>

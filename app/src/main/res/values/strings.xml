@@ -1,3 +1,189 @@
 <resources>
-    <string name="app_name">DM_PhoneBook</string>
+    <string name="app_name">Disaster Management PhoneBook</string>
+    <string-array name="name">
+        <item>মো: আতিকুল হক</item>
+        <item>নিশ্চিন্ত কুমার পোদ্দার</item>
+        <item>নিশ্চিন্ত কুমার পোদ্দার</item>
+        <item>মোঃ আব্দুল্লাহ আল-মামুন</item>
+        <item>অঞ্জন চন্দ্র পাল</item>
+        <item>মো: নূরুল হক চৌধুরী</item>
+        <item>নিতাই চন্দ্র দে সরকার</item>
+        <item>মো: নূরুল হক চৌধুরী</item>
+        <item>No Name</item>
+        <item>আবদুর রহমান</item>
+        <item>ড. মো: হাবিব উল্লাহ বাহার</item>
+        <item>No Name</item>
+        <item>সৈয়দা মেহেরুন নেছা কবীর</item>
+        <item>মো: মনিরুজ্জামান</item>
+        <item>মো: শাহাবুদ্দিন</item>
+        <item>ডা. সঞ্জীব সূত্রধর</item>
+        <item>মো: আমিনুল হক</item>
+        <item>এস এম রেখা রাণী হালদার</item>
+        <item>এ কে এম ইদ্রিশ আলী</item>
+        <item>No Name</item>
+        <item>No Name</item>
+        <item>এ বি এম আকরাম হোসেন</item>
+        <item>এ বি এম আকরাম হোসেন</item>
+        <item>মোঃ মাছুম কবির নজরুল ইসলাম</item>
+        <item>No Name</item>
+        <item>মোঃ নূরুজ্জামান</item>
+        <item>মোসা: মুসফিকা হাসনীন চৌধুরী</item>
+        <item>মোঃ নায়েব আলী</item>
+        <item>প্রবীর কুমার দাস</item>
+        <item>মো: মানসুরুল হক</item>
+        <item>No Name</item>
+        <item>No Name</item>
+        <item>সৈয়দ আশরাফ উল ইসলাম</item>
+        <item>মোহা: হাফিজুর রহমান</item>
+        <item>আবুল কালাম আজাদ</item>
+        <item>দিলিপ কুমার সেন</item>
+        <item>মো: মোরশেদ কামাল</item>
+        <item>মোহা: হাফিজুর রহমান</item>
+        <item>দেওয়ান নূরুল হুদা</item>
+        <item>কামরুন নাহার</item>
+        <item>মোঃ শামসুল আলম</item>
+        <item>নিখিল কুমার সরকার</item>
+        <item>মোঃ লাল মিঞা</item>
+        <item>মোঃ মাহাতাব উদ্দিন</item>
+    </string-array>
+
+    <string-array name="phone_number">
+        <item>৮৮০-১৭১৩১৯১১৪৪</item>
+        <item>০১৭০০৭১৬৬০২</item>
+        <item>০১৬৮৭৩৮৩৮২২</item>
+        <item>০১৭৫৯১২৫৫০০</item>
+        <item>০১৭১৮০৬৬৭২৫</item>
+        <item>০১৫৫২৩৩১৪৩৩</item>
+        <item>০১৫৫২৩৩১৪৩৩</item>
+        <item>০১৭১১৩৯৯৬৩৩</item>
+        <item>৮৮০-২-২২২২৬০৫২৩</item>
+        <item>৮৮০-১৭১১০২৯৩৯৬</item>
+        <item>০১৭০০৭১৬৬১১</item>
+        <item>০১৭০০৭১৬৬১২</item>
+        <item>৮৮০-১৭১৪২১৬৫৩৭</item>
+        <item>১৭১১৬৬০০৮৩</item>
+        <item>০১৭০০৭১৬৬২২</item>
+        <item>০১৭০০৭১৬৬২৪</item>
+        <item>০১৭০০৭১৬৬১০</item>
+        <item>০১৭০০৭১৬৬১০</item>
+        <item>০১৭৪৬৪৯৯৩৪২</item>
+        <item>০১৭০০৭১৬৬২৩</item>
+        <item>৮৮০-২-৯৮৪৩১৪৪</item>
+        <item>০১৭০০৭১৬৬২৪</item>
+        <item>০১৭০০৭১৬৬১৯</item>
+        <item>০১৭১৬১৯৮১৯৬</item>
+        <item>০১৭১৬১৯৮১৯৬</item>
+        <item>০১৭১৬৩০৫৬৮৪</item>
+        <item>০১৭০০৭১৬৬১৩</item>
+        <item>০১৭১১৯৬১২১৭</item>
+        <item>০১৭০০৭১৬৬২৬</item>
+        <item>৮৮০-১৭১৫১০৩৪৪৫</item>
+        <item>৮৮০-২-৯৮৮৩২৮০</item>
+        <item>৮৮০-২-৯৮৮৩২৮০</item>
+        <item>০১৭০০৭১৬৬২৯</item>
+        <item>৮৮০-১৫১৫৬৭০০৬৭</item>
+        <item>৮৮০-১৭১৬৬২৬৪৮১</item>
+        <item>০১৭১৫৬৪৮৬৯১</item>
+        <item>৮৮০-১৮১৯৪৩৬৭৯২</item>
+        <item>০১৭০০৭১৬৬৩৩</item>
+        <item>০১৭০০৭১৬৬৩৬</item>
+        <item>০১৭০০৭১৬৬৭৩</item>
+        <item>০১৭১০৯৫৪৮৪৫</item>
+        <item>০১৭২৭৪৪৯৮৩৮</item>
+        <item>০১৭১৪৩৭৮৪১৩</item>
+        <item>০১৭১১-৯৪৫৬৬০</item>
+    </string-array>
+
+    <string-array name="mail">
+        <item>dg@ddm.gov.bd</item>
+        <item>poddernishchinta@gmail.com</item>
+        <item>dadmin@ddm.gov.bd</item>
+        <item>mamun6692@gmail.com</item>
+        <item>anjoncpaul@gmail.com</item>
+        <item>nurulhaquechowdhury@gmail.com</item>
+        <item>netai@mail.com</item>
+        <item>dvgf@ddm.gov.bd</item>
+        <item>No_Mail</item>
+        <item>ark5569@gmail.com</item>
+        <item>ddadmin-2@ddm.gov.bd</item>
+        <item>No_Mail</item>
+        <item>smkabir30665@yahoo.com</item>
+        <item>monitang64@yahoo.com</item>
+        <item>shahabuddin07101964@gmail.com</item>
+        <item>sangib_ict75@yahoo.com</item>
+        <item>ddadmin-1@ddm.gov.bd</item>
+        <item>No_Mail</item>
+        <item>idristuku2@gmail.com</item>
+        <item>No_Mail</item>
+        <item>No_Mail</item>
+        <item>ddrelief1@ddm.gov.bd</item>
+        <item>ddmim@ddm.gov.bd</item>
+        <item>mknislam@gmail.com</item>
+        <item>No_Mail</item>
+        <item>zamanddm@gmail.com</item>
+        <item>mushfiqua21@yahoo.com</item>
+        <item>ffwegppreport@gmail.com</item>
+        <item>programmer1@ddm.gov.bd</item>
+        <item>mansorul@yahoo.com</item>
+        <item>No_Mail</item>
+        <item>No_Mail</item>
+        <item>cms@ddm.gov.bd</item>
+        <item>hafiz.ddm@gmail.com</item>
+        <item>pioakazad@gmail.com</item>
+        <item>engdilipddm@yahoo.com</item>
+        <item>kamalmorshed@yahoo.com</item>
+        <item>hafiz.ddm@gmail.com</item>
+        <item>aeffw@ddm.gov.bd</item>
+        <item>kamrunddm@gmail.com</item>
+        <item>ddmshamsul@gmail.com</item>
+        <item>nksarker01@gmail.com</item>
+        <item>lalmiah.ddm@gmail.com</item>
+        <item>mahatab.76@gmail.com</item>
+    </string-array>
+    <string-array name="officers_designation">
+        <item>মহাপরিচালক</item>
+        <item>পরিচালক(পরিকল্পনা ও উন্নয়ন)</item>
+        <item>পরিচালক (প্রশাসন)</item>
+        <item>পরিচালক (গবেষণা ও প্রশিক্ষণ)</item>
+        <item>পরিচালক(কাবিখা)</item>
+        <item>(উপ সচিব)পরিচালক (ত্রাণ)</item>
+        <item>পরিচালক (এমআইএম)</item>
+        <item>পরিচালক (ভিজিডি)</item>
+        <item>পরিচালক(মূল্যায়ন ও পরিবীক্ষণ)</item>
+        <item>উপ-পরিচালক(ভিজিডি-২)</item>
+        <item>উপ-পরিচালক(প্রশাসন-২)</item>
+        <item>উপ-পরিচালক(পরিকল্পনা)</item>
+        <item>উপ-পরিচালক(গবেষণা)</item>
+        <item>উপ-পরিচালক(কাবিখা-১)</item>
+        <item>উপ-পরিচালক(মূল্যায়ন-১)</item>
+        <item>উপ-পরিচালক (বাজেট)</item>
+        <item>উপ-পরিচালক(প্রশাসন-১)</item>
+        <item>উপ-পরিচালক(মূওপ-২)</item>
+        <item>উপ-পরিচালক(প্রশিক্ষণ)</item>
+        <item>উপ-পরিচালক(মূওপ-৩)</item>
+        <item>উপ-পরিচালক(ভিজিডি-১)</item>
+        <item>উপ-পরিচালক ত্রাণ-১</item>
+        <item>উপ-পরিচালক(এমআইএম)</item>
+        <item>উপ-পরিচালক ত্রাণ-২</item>
+        <item>উপ-পরিচালক(টেলিকম)</item>
+        <item>উপপরিচালক(কাবিখা-২)</item>
+        <item>উপ-পরিচালক(প্রশমন)</item>
+        <item>উপ-পরিচালক(কাবিখা-৩)</item>
+        <item>প্রোগ্রামার</item>
+        <item>প্রোগ্রামার (চ: দা:)</item>
+        <item>নির্বাহী প্রকৌশলী(দায়িত্ব প্রাপ্ত)</item>
+        <item>নির্বাহী প্রকৌশলী(চলতি দায়িত্ব)</item>
+        <item>কমিউনিকেশন মিডিয়া স্পেশালিস্ট</item>
+        <item>সহকারী পরিচালক(জিআইএস)</item>
+        <item>সহকারী পরিচালক(প্রশাসন)</item>
+        <item>প্রধান ভারপ্রাপ্ত কর্মকর্তা(ত্রাণ গুদাম)</item>
+        <item>সহকারী পরিচালক(বাজেট/হিসাব)</item>
+        <item>সহকারী পরিচালক(যানবাহন)</item>
+        <item>সহকারী প্রকৌশলী (কাবিখা)</item>
+        <item>ভারপ্রাপ্ত কর্মকর্তা(জরুরি সাড়াদান কেন্দ্র)</item>
+        <item>সহকারী পরিচালক(অডিট ও বাজেট)</item>
+        <item>সহকারী পরিচালক (প্রশিক্ষণ)</item>
+        <item>সহকারী পরিচালক(মহাপরিচালকের দপ্তর)</item>
+        <item>সহকারী পরিচালক(প্রশাসন-১)</item>
+    </string-array>
 </resources>

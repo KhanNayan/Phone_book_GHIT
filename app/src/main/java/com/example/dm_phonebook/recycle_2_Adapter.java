@@ -12,13 +12,16 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class recycle_2_Adapter extends RecyclerView.Adapter<recycle_2_Adapter.ViewHolder> {
-    recycle_2_data[] recycle_2_data;
+    ArrayList<recycle_2_data> recycle_2_dataList;
     Context context;
-    public recycle_2_Adapter(recycle_2_data[] recycle_2_data, Sub_Activity activity){
-        this.recycle_2_data = recycle_2_data;
+    private recycle_2_Adapter.RecyclerViewClickListener listener2;
+    public recycle_2_Adapter(ArrayList<recycle_2_data> recycle_2_data, Sub_Activity activity, recycle_2_Adapter.RecyclerViewClickListener listener2){
+        this.recycle_2_dataList = recycle_2_data;
         this.context = activity;
-//        this.listener = listener;
+        this.listener2 = listener2;
     }
     @NonNull
     @Override
@@ -31,24 +34,29 @@ public class recycle_2_Adapter extends RecyclerView.Adapter<recycle_2_Adapter.Vi
 
     @Override
     public void onBindViewHolder(@NonNull recycle_2_Adapter.ViewHolder holder, int position) {
-        final  recycle_2_data recycle_2_data_list = recycle_2_data[position];
+        final  recycle_2_data recycle_2_data_list = recycle_2_dataList.get(position);
         holder.contact_text_view_2.setText(recycle_2_data_list.getContact_name_2());
         holder.contact_image_view_2.setImageResource(recycle_2_data_list.getContact_image_2());
 
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(context,recycle_2_data_list.getContact_name_2(),Toast.LENGTH_SHORT).show();
-//                Intent intent = new Intent(context,Sub_Activity.class);
-            }
-        });
+//        holder.itemView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(context,recycle_2_data_list.getContact_name_2(),Toast.LENGTH_SHORT).show();
+////                Intent intent = new Intent(context,Sub_Activity.class);
+//            }
+//        });
     }
 
     @Override
     public int getItemCount() {
-        return recycle_2_data.length;
+        return recycle_2_dataList.size();
     }
-    public class ViewHolder extends RecyclerView.ViewHolder {
+
+    public interface RecyclerViewClickListener{
+        void onClick(View v,int position);
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         ImageView contact_image_view_2;
         TextView contact_text_view_2;
 
@@ -57,7 +65,12 @@ public class recycle_2_Adapter extends RecyclerView.Adapter<recycle_2_Adapter.Vi
 
             contact_text_view_2 = itemView.findViewById(R.id.contact_text_2);
             contact_image_view_2 = itemView.findViewById(R.id.contact_image_view_2);
-//            itemView.setOnClickListener(this);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            listener2.onClick(view,getAdapterPosition());
         }
     }
 }
